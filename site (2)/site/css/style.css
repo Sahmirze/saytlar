@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+    --yasil: #a1c927;
+    --qirmizi: #fd634d;
+  }
+
+header {
+    height: 100vh;
+    padding: 40px 0 0 0;
+    background: url('../img/headerbg.jpg') center/cover;
+    position: relative;
+}
+header nav, header section { position: absolute }
+header section { 
+    width: 100%;
+    text-align: center;
+    bottom: 16vh;
+}
+header nav { 
+    width: 100%;
+    text-align: center;
+}
+h1, h6 { font-family: Roboto, sans-serif; color: #FFF; text-transform: uppercase; }
+h1 { font-size: 2em; padding: 16px 0 }
+h2 {
+    font: 1.5em "Open Sans";
+}
+h3 {
+font-size: 35px;
+font-weight: 300;
+font-family: "Open Sans";
+text-transform: uppercase;
+}
+h5 {
+font-size: 14px;
+letter-spacing: 1px;
+color: #fd634e;
+font-family: "Montserrat";
+text-transform: uppercase;
+}
+h6 { font-size: .9em }
+.save article:nth-child(3){
+    text-align: center;
+}
+footer{height: 100vh; background:  #0d1119;}
+.save article span{
+    display: inline-block;
+}
+#menu li a {
+    color: #FFF;
+    font: .8em Lato, sans-serif;
+    text-transform: uppercase;
+}
+#fitness { background: url('../img/fitness.jpg') center/cover }
+#body { background: url('../img/body.jpg') center/cover }
+#lifestyle { background: url('../img/lifestyle.jpg') center/cover }
+#summer { background: url('../img/summer.jpg') center/cover }
+#uzum { background: url('../img/uzum.jpg') center/cover }
+#mango { background: url('../img/mango.jpg') center/cover }
+#dag  {background: url('../img/dag.jpg') center/cover;}
+#icon{display: inline-block; border-radius: 50%; }
+.container { max-width: 1180px; margin: auto }
+.agbg { background-color: #FFF }
+.yasilbg { background-color: var(--yasil) }
+.qirmizibg { background-color: var(--qirmizi) }
+.agtxt { color: #FFF }
+.yasiltxt { color: var(--yasil) }
+.qirmizitxt { color: var(--qirmizi) }
+.row { overflow: auto;}
+.col25 { padding: 30px 10px; }
+/* .col34 { }
+.col66 { } */
+.height50 { height: 60vh }
+.padding50 { padding: 50px; }
+.padding10 { padding: 10px; }
+.centertxt { text-align: center; }
+.bodytxt {font-size: 14px; line-height: 26px; color: #656e74; font-family: "Open Sans";
+}
+.col25 .fas { font-size: 2.5em; }
+.fa-tint {
+width: 15px;
+height: 23px;
+border-radius: 7px;
+color: #ddd;
+}
+.footer{height: 100vh; position: relative;}
+.absolute{position: absolute; top: 30%;width: 100%;}
+.h2{ font: 2em "Open Sans";}
+.h5{font:0.6em "Open Sans"; padding: 40px; }
+.footer_end{height: 100vh;background:#0d1119;position: relative;}
+/* .save{height: 100vh;} */
+.h6{text-align: center; padding: 20px 0 5px 0;}
+.p{ font: 0.7em Open sans-serif; ;color: #8297a7;}
+.fa-facebook{   font-size: 30px;
+    color: blue;
+    background: white;
+    border-radius: 50%;}
+    .fa-twitter{font-size: 26px;     color: white;}
+    .fa-youtube{font-size: 30px;
+        border-radius: 50%;
+        color: white;}
+        .fa-linkedin-in{font-size: 30px; color: white} 
+        .input{padding: 47px 0 0 13px;text-align: center !important;}
+     /* .input input  { width:30%;} */
+  
+     .input input[type="text"],[type="email"]{
+        display: block;
+        width: 80%;
+        margin: auto;
+        outline: none;
+        height: 5vh;
+        margin: 10px 30px 5px 30px;
+     }
+     input button{
+        width: 80%;
+        background: #a1c927 !important;
+        height: 5vh;
+        margin: auto;
+        display: block;
+     }
+@media only screen and (min-width: 768px) {
+    .input{padding-left: 38% !important;}
+    .input input[type="text"],[type="email"]{
+        width: 33%;
+        display: inline-block;
+        margin: 0;
+        font-size: 15px; height: 5vh; border: none;outline:none
+    }
+    .input button{background-color:#a1c927;margin-top: 2%;height: 5.1vh; font-size: 15px; border: none;outline:none}
+    h1 { font-size: 2.5em }
+    h6 { padding: 0 20px 0 0 }
+    header section {width: inherit;text-align: right;
+left: 110px 
+    }
+    header nav { text-align: inherit;}
+    #menu { float: right;}
+    #menu li { display: inline-block;padding: 0 45px 0}
+    #logo {padding: 0 0 0 60px;}
+    .col25 { width: 25% }
+    .col34 { width: 34% }
+    .col66 { width: 66% }
+    .floatl { float: left }
+    .floatr { float: right }
+    .absolute{width:inherit;padding-left: 70px;}
+    .h5{padding: 29px 180px 0 180px;}
+    .height50 { height: 50vh }
+    .save{padding-left: 90px;height: 25%;}
+    .save article{ width: 30%; float: left;}
+    .save article h6{ padding: 20px 0 5px 20px;text-align: inherit;}
+    .save article p{text-align: start;font: 0.9em Open sans-serif;padding-left: 23px;}
+    #icon{padding-left: 20px;}
+    .save article:nth-child(3){text-align: inherit};
+    .input{text-align:inherit;}
+}

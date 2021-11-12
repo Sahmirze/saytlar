@@ -1,0 +1,41 @@
+:root { --mavi: #6bc1f1 }
+header { background: url('img/headerbg.jpg') center/cover }
+.navbar { background: #FFFFFFAA!important }
+.color-blue { color: #061b46!important;}
+.color-mavi { color: var(--mavi) }
+.background-mavi { background-color: var(--mavi) }
+.vh-50 { height: 50vh }
+.p-30 {padding: 30px;}
+.over{overflow: auto;}
+.p_diifrent {padding: 10px 50px;}
+.vh-35 {height: 200px;}
+.width {max-width: 1200px;}
+.wh {width: 27%;}
+.h-25vh{height: 25vh;}
+.w-25vh{width: 20vh; border-color: #6bc1f1; color: #6bc1f1;}
+.h5{font-size: 2em;}
+.m-15{margin: 25px 0;}
+.m-auto{margin:auto}
+.m-bot{margin: 0 0 20px 0;}
+.p-08 {font-size: 0.9em !important;}
+.p-07{font-size: 0.7em !important;}
+.px {font-size: 1.2em;}
+.inline-block {display: inline-block;}
+.hover { display: none; background: #6bc1f1AA;  }
+#children:hover .hover, #surgeons:hover .hover { display: block;  }
+#surgeons { background: url('img/surgeons.jpg') center/cover }
+#children { background: url('img/children.jpg') center/cover }
+#boz{background: #f5f3f3 ;}
+#aciq_mavi {background: #6bd4f7!important;}
+#fs-60{font-size: 3.7em;}
+footer{background:#072035 !important; }
+#card{background-color:#072035 !important;color: #fff !important;border: 0px !important;}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .wh{width: 100%;}
+    
+}
